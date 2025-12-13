@@ -3,10 +3,10 @@ import variables
 
 def main(page: ft.Page):
     page.title = 'Sistema de Estoque'
-    page.height = 600
-    page.width = 400
+    page.window.height = 600
+    page.window.width = 400
 
-    page.add(variables.rola)
+    page.add(ft.Text(variables.teste))
     page.update()
 
 ft.app(main)
