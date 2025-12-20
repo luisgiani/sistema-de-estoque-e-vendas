@@ -1,2 +1,2 @@
-# sistema-de-estoque-e-vendas
+# sistema-de-estoque
 
